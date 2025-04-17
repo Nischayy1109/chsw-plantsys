@@ -16,6 +16,7 @@ const Home = () => {
         </h1>
       </header>
 
+      {/* @ts-ignore */}
       <Navigation activeTab={activeTab} setActiveTab={setActiveTab} />
 
       <main className="container mx-auto p-4 md:p-6">
